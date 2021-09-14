@@ -14,6 +14,7 @@ final EC_P = HEX.decode("fffffffffffffffffffffffffffffffffffffffffffffffffffffff
 final secp256k1 = new ECCurve_secp256k1();
 final n = secp256k1.n;
 final G = secp256k1.G;
+final negativeFlag = BigInt.from(0x80);
 BigInt nDiv2 = n >> 1;
 const THROW_BAD_PRIVATE = 'Expected Private';
 const THROW_BAD_POINT = 'Expected Point';
