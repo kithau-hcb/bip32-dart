@@ -10,7 +10,7 @@ environment:
 dependencies:
   pointycastle: ^1.0.1
   hex: ^0.1.2
-  bs58check: ^1.0.2
+  bs58check: ^1.0.1
 
 dev_dependencies:
   test: ^1.0.0
