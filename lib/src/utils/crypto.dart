@@ -1,9 +1,9 @@
 import "dart:typed_data";
-import "package:pointycastle/digests/sha512.dart";
-import "package:pointycastle/api.dart" show KeyParameter;
-import "package:pointycastle/macs/hmac.dart";
-import "package:pointycastle/digests/ripemd160.dart";
-import "package:pointycastle/digests/sha256.dart";
+import "package:pointycastle_hcb/digests/sha512.dart";
+import "package:pointycastle_hcb/api.dart" show KeyParameter;
+import "package:pointycastle_hcb/macs/hmac.dart";
+import "package:pointycastle_hcb/digests/ripemd160.dart";
+import "package:pointycastle_hcb/digests/sha256.dart";
 
 final ONE1 = Uint8List.fromList([1]);
 final ZERO1 = Uint8List.fromList([0]);

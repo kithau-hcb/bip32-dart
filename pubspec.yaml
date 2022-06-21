@@ -8,7 +8,10 @@ environment:
   sdk: ">=2.0.0 <3.0.0"
 
 dependencies:
-  pointycastle: ^1.0.1
+  pointycastle_hcb:
+    git: 
+      url: https://github.com/kithau-hcb/pc-hcb.git
+      ref: 'hcb-1.0.2'
   hex: ^0.1.2
   bs58check: ^1.0.1
 

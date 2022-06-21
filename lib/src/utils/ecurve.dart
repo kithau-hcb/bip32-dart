@@ -1,12 +1,12 @@
 import 'dart:typed_data';
 import 'package:hex/hex.dart';
-import "package:pointycastle/ecc/curves/secp256k1.dart";
-import "package:pointycastle/api.dart" show PrivateKeyParameter, PublicKeyParameter;
-import 'package:pointycastle/ecc/api.dart' show ECPrivateKey, ECPublicKey, ECSignature, ECPoint;
-import "package:pointycastle/signers/ecdsa_signer.dart";
-import 'package:pointycastle/macs/hmac.dart';
-import "package:pointycastle/digests/sha256.dart";
-import 'package:pointycastle/src/utils.dart';
+import "package:pointycastle_hcb/ecc/curves/secp256k1.dart";
+import "package:pointycastle_hcb/api.dart" show PrivateKeyParameter, PublicKeyParameter;
+import 'package:pointycastle_hcb/ecc/api.dart' show ECPrivateKey, ECPublicKey, ECSignature, ECPoint;
+import "package:pointycastle_hcb/signers/ecdsa_signer.dart";
+import 'package:pointycastle_hcb/macs/hmac.dart';
+import "package:pointycastle_hcb/digests/sha256.dart";
+import 'package:pointycastle_hcb/src/utils.dart';
 
 final ZERO32 = Uint8List.fromList(List.generate(32, (index) => 0));
 final EC_GROUP_ORDER = HEX.decode("fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364141");
